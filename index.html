@@ -1,17 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Simple To Do</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Hello World!</h1>
-    </header>
-    <footer>
+      <div class="container">
+        <a href="#" class="logo">Remember<span>That</span></a>
 
-    </footer>
-</body>
+        <img src="./images/menu.svg" alt="" id="mobile-cta" class="mobile-menu"/>
+        <nav class="navbar">
+          <img src="./images/exit.svg" alt="" id="mobile-exit" />
+          <ul class="left-nav">
+            <li class="home"><a href="#">Home</a></li>
+            <li><a href="#">Feautures</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+
+          <ul class="right-nav">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="Premium">Go Premium</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="main">
+      <div class="container">
+        <div class="left-col">
+          <p class="first-heading">It's Nitty &amp; Gritty</p>
+          <h1 class="second-heading">A Task App That Doesn't Stink</h1>
+          <div class="bottom-links">
+            <a href="#" class="try-button">Try for Free</a>
+            <img src="./images/watch.svg" alt="" />
+            <a href="#">Watch a Video</a>
+          </div>
+        </div>
+        <div class="right-col">
+          <img src="./images/illustration.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="second-section">
+      <div class="container">
+        <ul class="feature-list">
+          <li>Unlimited Tasks</li>
+          <li>SMS Task Reminders</li>
+          <li>Confetti Explosions upon Task Completions</li>
+          <li>Social Media Announcements</li>
+          <li>Real Time Collaborations</li>
+          <li>Other Awesome Features</li>
+        </ul>
+        <img src="./images/holding-phone.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="third-section">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="./images/person.jpg" alt="" />
+            <blockquote>
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
+              magni repellat maiores nemo aperiam a nostrum error aut dolore
+              qui?"
+            </blockquote>
+            <cite>-Josh</cite>
+          </li>
+          <li>
+            <img src="./images/person.jpg" alt="" />
+            <blockquote>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Excepturi atque, totam autem repudiandae amet ipsa molestias
+              itaque quidem distinctio ea!"
+            </blockquote>
+            <cite>-Tramel</cite>
+          </li>
+          <li>
+            <img src="./images/person.jpg" alt="" />
+            <blockquote>
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptas quasi impedit in id optio labore odit ipsam illo hic.
+              Beatae."
+            </blockquote>
+            <cite>-Cyntheese</cite>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="fourth-section">
+      <div class="contact">
+        <h1>Contact</h1>
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" name="" id="name" />
+          <label for="message">Message</label>
+          <textarea name="" id="message" cols="30" rows="10"></textarea>
+          <input type="submit" class="send-button" value="Send Message" />
+        </form>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d459856.72981777973!2d-80.50896212433693!3d25.782758865034225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL!5e0!3m2!1sen!2sus!4v1641322315940!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+  </body>
 </html>
